@@ -16,7 +16,7 @@ class CQueryString {
     public function getQueryString($options, $prepend='?') {
       // parse query string into array
       $query = array();
-      parse_str($_SERVER['QUERY_STRING'], $query);
+      //parse_str($_SERVER['QUERY_STRING'], $query);
 
       // Modify the existing query string with new options
       $query = array_merge($query, $options);
