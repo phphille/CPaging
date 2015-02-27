@@ -23,6 +23,7 @@ class CQueryString {
 
       // Return the modified querystring
       return $prepend . http_build_query($query);
+
     }
 
 
